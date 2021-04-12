@@ -4,7 +4,7 @@
 
 const express = require("express");
 const path = require("path");
-const { auth } = requir("express-openid-connect");
+const { auth } = require("express-openid-connect");
 
 require("dotenv").config();
 
